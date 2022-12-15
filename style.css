@@ -19,11 +19,16 @@ body {
     color: #fff;
 }
  
-@media only screen and (orientation:portrait){
+@media only screen and (max-width:320px){
     .body{
         font-size:36px;
         margin-top:20px;
         height:100vh;
+    }
+    h1.animated-word{
+        margin-top:450px;
+        font-size:56px;
+        letter-spacing: 11px;
     }
   
 }            
